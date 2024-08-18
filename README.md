@@ -1,4 +1,4 @@
-## Análisis Exploratoprio "City Bikes" :bike:
+## Análisis Exploratorio :bike: City Bikes
 
 ## Temas
 
