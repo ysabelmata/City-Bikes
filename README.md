@@ -47,6 +47,7 @@
 4. Identificar y manejar datos fuera del alcance del análisis:
 
 * customer_plan: se excluyó la columna ya que no tenía información en ninguno de los registros, solo 50000 valores nulos.
+* Se calculó la edad de los usuarios con EXTRACT(YEAR FROM CURRENT_DATE()) - birth_year) y se observó que habían  157 usuarios > 80 años , por la edad es posible que las fechas de nacimiento ingresadas no sean las correctas por lo cual se dejaron estos registros fuera del análisis.
 
 5. Crear nuevas variables:
 
